@@ -39,18 +39,23 @@ public class Card extends javax.swing.JPanel {
         setPreferredSize(new java.awt.Dimension(70, 130));
         setLayout(new java.awt.GridLayout(0, 1));
 
+        lblMateria.setFont(new java.awt.Font("Segoe UI Emoji", 1, 18)); // NOI18N
         lblMateria.setText("Materia");
         add(lblMateria);
 
+        lblProfesor.setFont(new java.awt.Font("Segoe UI Emoji", 1, 18)); // NOI18N
         lblProfesor.setText("Profesor");
         add(lblProfesor);
 
+        lblHorario.setFont(new java.awt.Font("Segoe UI Emoji", 1, 18)); // NOI18N
         lblHorario.setText("Horario");
         add(lblHorario);
 
+        lblSalon.setFont(new java.awt.Font("Segoe UI Emoji", 1, 18)); // NOI18N
         lblSalon.setText("Salón");
         add(lblSalon);
 
+        lblEdificio.setFont(new java.awt.Font("Segoe UI Emoji", 1, 18)); // NOI18N
         lblEdificio.setText("Edificio");
         add(lblEdificio);
 

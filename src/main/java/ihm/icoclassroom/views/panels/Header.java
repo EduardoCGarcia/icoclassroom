@@ -19,7 +19,7 @@ public class Header extends javax.swing.JPanel {
         setFont(new java.awt.Font("Segoe UI Emoji", 1, 48)); // NOI18N
         setLayout(new java.awt.GridBagLayout());
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\java\\ICOCLASSROOM\\src\\main\\java\\ihm\\icoclassroom\\images\\ICOCLASSROOM.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\java\\ICOCLASSROOM\\src\\main\\resources\\images\\ICOCLASSROOM.png")); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridwidth = 5;
         gridBagConstraints.gridheight = 6;

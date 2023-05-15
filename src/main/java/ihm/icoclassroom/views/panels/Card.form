@@ -32,26 +32,41 @@
   <SubComponents>
     <Component class="javax.swing.JLabel" name="lblMateria">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI Emoji" size="18" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Materia"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblProfesor">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI Emoji" size="18" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Profesor"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblHorario">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI Emoji" size="18" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Horario"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblSalon">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI Emoji" size="18" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Sal&#xf3;n"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblEdificio">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI Emoji" size="18" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Edificio"/>
       </Properties>
     </Component>
