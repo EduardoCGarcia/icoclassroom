@@ -1,17 +1,45 @@
 package ihm.icoclassroom.views.panels;
 
 import ihm.icoclassroom.tools.TextPrompt;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import javax.swing.Timer;
 
 /**
  * TODO Cada una de las cards debe tener un borde vació de [10,10,10,10]
+ *
  * @author echav
  */
-
 public class Index extends javax.swing.JPanel {
+
+    private Timer timer;
 
     public Index() {
         initComponents();
-        TextPrompt prubea = new TextPrompt("Nombre de la materia",txtBuscarMateria);
+        TextPrompt prubea = new TextPrompt("Nombre de la materia", txtBuscarMateria);
+        timer = new Timer(1000, new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Aquí puedes realizar la acción que deseas después de 3 segundos
+                System.out.println("Han pasado 3 segundos sin presionar teclas: " + txtBuscarMateria.getText());
+            }
+        });
+        timer.setRepeats(false);
+        txtBuscarMateria.addKeyListener(new KeyListener() {
+            public void keyPressed(KeyEvent e) {
+                // Reiniciar el temporizador si se presiona una tecla
+                timer.restart();
+            }
+
+            public void keyReleased(KeyEvent e) {
+            }
+
+            public void keyTyped(KeyEvent e) {
+            }
+
+           
+        });
     }
 
     @SuppressWarnings("unchecked")
@@ -31,6 +59,7 @@ public class Index extends javax.swing.JPanel {
         jPanel1.setLayout(new java.awt.GridLayout(3, 3));
         add(jPanel1, java.awt.BorderLayout.CENTER);
     }// </editor-fold>//GEN-END:initComponents
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField txtBuscarMateria;
